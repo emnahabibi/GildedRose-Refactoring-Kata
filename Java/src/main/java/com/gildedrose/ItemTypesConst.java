@@ -6,4 +6,6 @@ public class ItemTypesConst {
     public static final String SULFURAS = "Sulfuras, Hand of Ragnaros";
     public static final String CONJURED = "Conjured Mana Cake";
 
+    private ItemTypesConst() {
+    }
 }
