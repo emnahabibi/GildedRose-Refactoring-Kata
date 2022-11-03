@@ -22,6 +22,9 @@ public class AggregateItem implements AggregateItemInterface {
         if (ItemTypesConst.BACKSTAGE.equals(item.name)) {
             return new BackStageItem(item);
         }
+        if (ItemTypesConst.CONJURED.equals(item.name)) {
+            return new ConjuredItem(item);
+        }
         return new AggregateItem(item);
     }
 
